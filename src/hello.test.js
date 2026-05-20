@@ -1,8 +1,8 @@
 const { greet } = require('./hello');
 
 describe('greet', () => {
-  test('returns "Hello, World!" when no argument is provided', () => {
-    expect(greet()).toBe('Hello, World!');
+  test('returns "Hello, Bob!" when no argument is provided', () => {
+    expect(greet()).toBe('Hello, Bob!');
   });
 
   test('returns "Hello, World!" when called with "World"', () => {
