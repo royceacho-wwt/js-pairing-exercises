@@ -1,9 +1,9 @@
 /**
  * Returns a greeting string for the given name.
- * @param {string} [name='World'] - The name to greet.
+ * @param {string} [name='Bob'] - The name to greet.
  * @returns {string} The greeting message.
  */
-function greet(name = 'World') {
+function greet(name = 'Bob') {
   return `Hello, ${name}!`;
 }
 
